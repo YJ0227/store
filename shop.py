@@ -168,7 +168,7 @@ while True:
         else:
             print("恭喜您获得劳力士手表免费优惠券，可享受免费优惠！")
             chose = input("请输入商品编号：")
-            if chose.isdigit():  # "5" --> 5     isdigit检测字符串是否只由数字组成
+            if chose.isdigit():  
                 chose = int(chose)
                 if chose > len(shop):
                     print("这里没有您需要的商品！")
@@ -183,7 +183,7 @@ while True:
                 print("对不起，输入非法，请重新输入！")
     else:
         chose = input("请输入商品编号：")
-        if chose.isdigit():  # "5" --> 5     isdigit检测字符串是否只由数字组成
+        if chose.isdigit():  
             chose = int(chose)
             if chose > len(shop):
                 print("这里没有您需要的商品！")
